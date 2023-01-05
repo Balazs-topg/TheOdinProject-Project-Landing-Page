@@ -1,0 +1,283 @@
+body{
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: sans-serif;
+
+    background-color: #1f2937;
+}
+
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #E5E7Eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0px;
+    padding: 0px;
+}
+
+button{
+    background-color: #3882F6;
+}
+
+header {
+    background-color: #1f2937;
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-header{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.inner-header > .logo {
+    margin-right: auto;
+}
+.right-side-links{
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+    color: lightgray;
+}
+
+.first-part {
+    background-color: #1f2937;
+}
+
+.first-part > .wrapper{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+
+    height: 50vh;
+
+    display: flex;
+    gap: 30px;
+}
+
+.first-part > .wrapper > .leftside{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.first-part > .wrapper > .leftside > p{
+    color: lightgray;
+    font-size: 18px;
+}
+
+.first-part > .wrapper > .leftside > button{
+    height: 30px;
+    width: 140px;
+    color: #E5E7Eb;
+    border-radius: 10px;
+    text-align: center;
+    flex-shrink: 0;
+    border: none;
+
+}
+
+.first-part > .wrapper > .rightside{
+    color: #E5E7Eb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-basis: 400px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.first-part > .wrapper > .rightside > .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first-part > .wrapper > .rightside > .image-wrapper > img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.second-part{
+    background-color: #F9FAF8;
+}
+
+.second-part > .wrapper{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+
+    height: 50vh;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.second-part > .wrapper > .container{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+
+    height: 50vh;
+
+    text-align: center;
+
+    display: flex;
+    gap: 30px;
+}
+
+.second-part > .wrapper > h2{
+    font-size: 40px;
+}
+
+
+.container > .box > .image-container{
+    height: 120px;
+    width: 120px;
+    margin-bottom: 10px;
+
+    border: solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-width: 5px;
+}
+
+
+
+.container > .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.third-part {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third-part > .wrapper{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third-part > .wrapper > p{
+    text-align: left;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.third-part > .wrapper > strong{
+    text-align: right;
+    font-size: 16px;
+    color: #1f2937;
+}
+
+.fourth-part {
+    width: 100%;
+    background-color: #F9FAF8;
+    color: #E5E7Eb;
+
+}
+
+.fourth-part > .wrapper > .container{
+
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+
+    background-color: #3882F6;
+    border-radius: 10px;
+
+    height: 10vh;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.fourth-part > .wrapper > .container > .right-side{
+    color: #E5E7Eb;
+    border: solid;
+    border-color: #E5E7Eb;
+    border-radius: 10px;
+    border-width: 2px;
+    height: 30px;
+    width: 80px;
+}
+
+footer{
+    background-color: #1f2937;
+    height: 80px;
+    text-align: center;
+    color: #E5E7Eb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
